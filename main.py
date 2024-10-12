@@ -106,13 +106,13 @@ if __name__ == "__main__":
             resume_data = resume_data.split('Note')[0]
             resume_data = json.loads(resume_data)
             
-            st.header("Key Metrics")
-            col1, col2, col3 = st.columns([1.25,1.25,2])
+            st.header("Resume Compatibility with JD")
+            col1, col2, col3 = st.columns([1.25,1.25,2.2])
             
             # Resume Compatibility Score before and after suggestions
-            col1.metric(label="Resume Compatibility (Before)", value=f"{resume_data['resume_compatibility_score_before']}%")
-            col2.metric(label="Resume Compatibility (After)", value=f"{resume_data['resume_compatibility_score_after']}%")
-            col3.metric(label="Based on current resume 'Chances of Selection'", value=resume_data['chances_of_selection'])
+            col1.metric(label="Current CV Compatibility", value=f"{resume_data['resume_compatibility_score_before']}%")
+            col2.metric(label="Suggested CV Compatibility", value=f"{resume_data['resume_compatibility_score_after']}%")
+            col3.metric(label="Based on current CV 'Chances of Selection'", value=resume_data['chances_of_selection'])
 
             # Skill analysis section
             st.header("Skills Matching Overview")
