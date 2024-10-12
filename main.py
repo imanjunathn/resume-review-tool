@@ -118,12 +118,13 @@ if __name__ == "__main__":
             st.header("Skills Matching Overview")
 
             # Split dashboard layout into two sections: Left for skills chart, Right for suggestions
-            col_left, col_right = st.columns([2, 3])
-            col_left.pyplot(visualize_skills(resume_data['matching_skills'], resume_data['missing_skills']))
+            # col_left, col_right = st.columns([2, 3])
+            with st.container() as container:
+                st.pyplot(visualize_skills(resume_data['matching_skills'], resume_data['missing_skills']))
             
             # Suggestions section on the right
             # col_right.subheader("Detailed Suggestions for Improvement")
-            with col_right.expander("Detailed Suggestions for Improvement", expanded=True):
+            with st.expander("Detailed Suggestions for Improvement", expanded=True):
                 for suggestion in resume_data['suggestions']:
                     st.write(f"- **Section:** {suggestion['resume_section']}")
                     st.write(f"  - **Suggested Modifications:** {suggestion['suggested_modifications']}")
