@@ -36,7 +36,7 @@ The **Resume Review Tool** is a web application designed to analyze a user's res
    2. Open your web browser and go to http://localhost:8501.
    3. Input your resume and the job description in the provided text areas and click the Analyze Resume button to get insights and suggestions.
   
-## How It Works**
+## How It Works
  1. The application uses the ChatGroq language model to analyze the resume and job description.
  2. It calculates the resume compatibility score based on the analysis of skills, years of experience, and designation.
  3. It visually represents the matching and missing skills using a horizontal bar chart.
