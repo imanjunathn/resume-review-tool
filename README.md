@@ -43,6 +43,7 @@ The **Resume Review Tool** is a web application designed to analyze a user's res
  4. The tool provides a breakdown of suggestions for improving the resume to better match the job requirements.
 
 **Example Output**
+
 When analyzing a resume, the tool will output metrics such as:
 1. Resume Compatibility (Before)
 2. Resume Compatibility (After)
