@@ -45,12 +45,12 @@ The **CrewAI** framework is utilized to manage the analysis process in the Resum
  4. The tool provides a breakdown of suggestions for improving the resume to better match the job requirements.
 
 **Example Output**
-  When analyzing a resume, the tool will output metrics such as:
-    1. Resume Compatibility (Before)
-    2. Resume Compatibility (After)
-    3. Chances of Selection
-    4. A visual representation of matching vs. missing skills
-    5. Detailed suggestions for improvement
+When analyzing a resume, the tool will output metrics such as:
+1. Resume Compatibility (Before)
+2. Resume Compatibility (After)
+3. Chances of Selection
+4. A visual representation of matching vs. missing skills
+5. Detailed suggestions for improvement
   
 **Contributing**
   Contributions are welcome! Please feel free to submit a pull request or open an issue for any improvements or bug fixes.
