@@ -17,6 +17,9 @@ The **Resume Review Tool** is a web application designed to analyze a user's res
 - **Matplotlib**: For visualizing skills.
 - **dotenv**: For loading environment variables.
 
+## CrewAI Framework Usage
+The **CrewAI** framework is utilized to manage the analysis process in the Resume Review Tool. It allows for the creation and orchestration of custom agents and tasks that enhance the resume evaluation.
+
 ## Installation
 1. Clone the repository:
    ```bash
